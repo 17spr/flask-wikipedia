@@ -15,7 +15,7 @@ summary = wikipedia.summary(first_article, sentences=1)
 print(summary)
 
 @app.route('/')
-def hello_world():
+def render_summary():
     return summary
 if __name__ == '__main__':
     app.run(port='5000')
