@@ -18,4 +18,4 @@ print(summary)
 def render_summary():
     return summary
 if __name__ == '__main__':
-    app.run(port='5000')
+    app.run()
