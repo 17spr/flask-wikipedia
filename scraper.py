@@ -1,5 +1,6 @@
 import wikipedia
 from flask import Flask, request, render_template
+from flask_heroku import Heroku
 
 app = Flask(__name__)
 
