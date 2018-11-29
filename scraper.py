@@ -1,5 +1,6 @@
 import wikipedia
 from flask import Flask, request, render_template
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -17,4 +18,5 @@ def search_result():
     return summary
 
 if __name__ == '__main__':
-    app.run()
+    # app.run()
+    serve(app)
