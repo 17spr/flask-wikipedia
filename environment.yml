@@ -1,8 +1,0 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-name: wikiscraper
-dependencies:
-- flask=1.0.2=py36_1
-- waitress=1.1.0=py36_0
-- wikipedia=1.4.0=py36_0
